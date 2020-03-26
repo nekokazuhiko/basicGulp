@@ -1,25 +1,25 @@
 {
   "name": "dev_gulp",
   "version": "1.0.1",
-  "description": "凌誠 gulp 重構版本 v.1.0.1 by 猫",
+  "description": "gulp 重構版本 v.1.0.1 by 猫",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/nekokazuhiko/basicGulp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sunlion/dev_gulp/issues"
+    "url": "https://github.com/nekokazuhiko/basicGulp/issues"
   },
-  "homepage": "https://github.com/sunlion/dev_gulp#readme",
+  "homepage": "https://github.com/nekokazuhiko/basicGulp#readme",
   "devDependencies": {
-    "@fortawesome/fontawesome-free": "^5.12.1",
-    "autoprefixer": "^9.7.4",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "autoprefixer": "^9.7.5",
     "bootstrap": "^4.4.1",
     "browser-sync": "^2.26.7",
     "cssnano": "^4.1.10",
