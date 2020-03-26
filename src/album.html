@@ -1,0 +1,23 @@
+<!-- index.nunjucks -->
+{% extends "layout.html" %}
+<!--TITLE setting-->
+{% block title %}首頁{% endblock %}
+<!--Nav setting-->
+{% block navigation %}
+{% import 'macros/nav.html' as nav %}
+<!-- Set navitem to active -->
+{{nav.active('album')}}
+{% endblock %}
+{% block content %}
+<!-- 內容切換範圍 SR -->
+<div>這是另一頁</div>
+<a href="index.html">返回首頁</a>
+
+<!-- 內容切換範圍 END -->
+{% endblock %}
+
+{% block js %}
+<!-- 特定分頁使用js or 單獨引用放置處 START -->
+<!-- <script></script> -->
+<!-- 特定分頁使用js or 單獨引用放置處 END -->
+{% endblock %}

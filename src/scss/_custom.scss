@@ -1,0 +1,16 @@
+// 客製用
+// * {box-sizing: content-box;}
+@import "../scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins/_breakpoints";
+
+// @include media-breakpoint-down(xs) {}
+// @include media-breakpoint-down(sm) {}
+// @include media-breakpoint-down(md) {}
+// @include media-breakpoint-down(lg) {} XXXX以下
+// @include media-breakpoint-between(md, xl) {}  特殊區間
+// @include media-breakpoint-up(xs) { ... }   XXXX以上
+// <<<----- 說明開始 ----->>>
+// .custom 開頭為客制化使用
+// <<<----- 說明結束 ----->>>
+// ======= 變數 SR =======
+// 地圖標示圓點
