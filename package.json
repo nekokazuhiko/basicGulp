@@ -41,5 +41,8 @@
   },
   "browserslist": [
     "last 5 version"
-  ]
+  ],
+  "dependencies": {
+    "core-js": "^3.6.4"
+  }
 }
