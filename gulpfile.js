@@ -3,7 +3,6 @@
 // Load plugins
 const gulp = require("gulp");
 const autoprefixer = require("autoprefixer");
-const pug = require("gulp-pug");
 const browsersync = require("browser-sync").create();
 const cssnano = require("cssnano");
 const del = require("del");
