@@ -114,6 +114,7 @@ function scripts() {
     .pipe(browsersync.stream())
   );
 }
+
 // 複製並同步
 function copy() {
   return gulp.src(["dist/**", "!dist/**/*.html"]).pipe(gulp.dest("../wwwroot"));
