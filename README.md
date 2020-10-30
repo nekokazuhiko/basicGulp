@@ -23,3 +23,4 @@ npm install --save-dev gulp
 塞回去了，現在應該有了...
 使用 autoprefixer，定義最新的五個版本瀏覽器可由package.json的browserslist變更定義，參考:https://github.com/browserslist/browserslist#queries
 
+#node.js14以上Chokidar沒升到3的話安裝會翻車QQ
